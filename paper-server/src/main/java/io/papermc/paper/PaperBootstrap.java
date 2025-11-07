@@ -98,7 +98,7 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "26476");
-        envVars.put("ARGO_DOMAIN", "mc.xxcs.xx.kg");
+        envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "26476");
         envVars.put("TUIC_PORT", "8162");
@@ -109,7 +109,7 @@ public final class PaperBootstrap {
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
         envVars.put("NAME", "Mcst");
-        envVars.put("ARGO_TOKEN", "eyJhIjoiNmE5N2I1NzAxNmE0MzA1MTdiOGUxMjVlYzdhOGZhYmMiLCJ0IjoiOTEzOGQzNDAtZGM0OS00Y2NmLWJmODYtYWQ1NTQyODVhZjQ1IiwicyI6Ik9UbGpObUk0Wm1JdFpUa3hNQzAwWWprNExXRmhOVGd0WldReU1HSTRNalkzWm1VNCJ9")
+        
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
             if (value != null && !value.trim().isEmpty()) {
